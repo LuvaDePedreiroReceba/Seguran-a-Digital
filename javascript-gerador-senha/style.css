@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root{
+    --branco: white;
+    --cor-de-fundo: black;
+    --fundo-senha: rgb(39, 38, 38);
+    --fundo-texto: #002855;
+    --borda: #0075FF;
+    --roboto: "Roboto Mono", monospace;
+  --roboto-mono: auto;
+}
+
+body{
+    color: var(--branco);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto);
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-scundario{
+    font-size: 24px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+}
